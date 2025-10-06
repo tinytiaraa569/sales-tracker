@@ -1,6 +1,6 @@
 "use client"
 
-import { Card, CardContent } from "./ui/Card"
+import { Card, CardContent } from "./ui/card"
 
 export default function StatsCards({ locations, currentLocation }) {
   const totalLocations = locations.length
