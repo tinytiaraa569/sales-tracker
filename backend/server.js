@@ -8,6 +8,12 @@ import visitRoutes from "./routes/visitRoutes.js"
 dotenv.config()
 
 const app = express()
+app.use(
+    cors({
+      origin: "http://localhost:5173",  // Allow only your frontend
+      credentials: true,                // Allow cookies & auth headers
+    })
+  );
 const PORT = process.env.PORT || 8000
 
 // Middleware

@@ -5,6 +5,7 @@ import { registerServiceWorker } from "./services/serviceWorkerRegistration"
 import syncService from "./services/syncService"
 import indexedDBService from "./services/indexedDB"
 import { useEffect } from "react"
+import Home from "./Home/Home"
 
 function App() {
     useEffect(() => {
@@ -44,6 +45,8 @@ function App() {
     <LocationProvider>
 
        <Routes>
+          <Route path="/" element={<Home />} />
+
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
     </LocationProvider>
