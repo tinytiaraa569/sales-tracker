@@ -131,11 +131,11 @@ export default function TrackingControls() {
             {error && <span className="text-sm text-destructive">{error}</span>}
 
             {isTracking ? (
-              <Button variant="destructive" onClick={stopTracking}>
+              <Button className="cursor-pointer" variant="destructive" onClick={stopTracking}>
                 Stop Tracking
               </Button>
             ) : (
-              <Button onClick={handleStartTracking}>Start Tracking</Button>
+              <Button className="cursor-pointer" onClick={handleStartTracking}>Start Tracking</Button>
             )}
           </div>
         </div>
