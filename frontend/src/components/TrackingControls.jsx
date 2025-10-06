@@ -63,7 +63,7 @@ import PermissionDialog from "./PermissionDialog"
 //   )
 // }
 
-
+// heelo
 export default function TrackingControls() {
   const { isTracking, startTracking, stopTracking, error, trackingInterval, setTrackingInterval } =
     useLocationTracking()
@@ -84,6 +84,8 @@ export default function TrackingControls() {
 
   const handlePermissionDeny = () => {
     console.log("[v0] User denied location permission")
+    console.log("[v0] User denied location permission")
+
   }
 
   return (
