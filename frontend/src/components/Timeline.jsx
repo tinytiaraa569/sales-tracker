@@ -77,7 +77,7 @@
 "use client"
 
 import { format, parseISO } from "date-fns"
-import { Card, CardContent } from "./ui/Card"
+import { Card, CardContent } from "./ui/card"
 
 export default function Timeline({ locations }) {
   // Group locations by date

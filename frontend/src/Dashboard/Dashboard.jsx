@@ -109,8 +109,8 @@ import MapView from "../components/MapView"
 import Timeline from "../components/Timeline"
 import StatsCards from "../components/StatsCards"
 import TrackingControls from "../components/TrackingControls"
-import { Card, CardHeader, CardTitle, CardContent } from "../components/ui/Card"
-import {Button} from "../components/ui/Button"
+import { Card, CardHeader, CardTitle, CardContent } from "../components/ui/card"
+import {Button} from "../components/ui/button"
 // import { exportToCSV } from "../utils/exportToCSV"
 
 export default function Dashboard() {

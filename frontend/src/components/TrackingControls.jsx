@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import {Button} from "./ui/Button"
+import {Button} from "./ui/button"
 import { useLocationTracking } from "../hooks/useLocationTracking"
 import { useLocation } from "@/context/LocationContext"
 import PermissionDialog from "./PermissionDialog"
