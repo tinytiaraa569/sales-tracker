@@ -10,7 +10,7 @@ dotenv.config()
 const app = express()
 app.use(
     cors({
-      origin: "http://localhost:5173",  // Allow only your frontend
+      origin: "https://sales-trackers.vercel.app",  // Allow only your frontend
       credentials: true,                // Allow cookies & auth headers
     })
   );
